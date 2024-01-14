@@ -1,0 +1,13 @@
+a, span, h6, p{
+  color: white;
+}
+.bg__footer{
+  background-color: black;
+  padding: 30px;
+}
+.logo-img{
+  &__footer{
+    border-radius: 50%;
+    max-width: 250px;
+  }
+}

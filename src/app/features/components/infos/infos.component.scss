@@ -1,0 +1,15 @@
+.bar{
+  padding: 10px;
+  &__infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__ic{
+    display: flex;
+    align-items:center
+  }
+  &__icon{
+    padding: 10px;
+  }
+}

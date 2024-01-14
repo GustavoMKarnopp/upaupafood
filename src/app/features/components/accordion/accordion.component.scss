@@ -1,0 +1,28 @@
+.mat{
+  &__panel-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+  }
+  &__panel-subtitle-prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__panel-prod{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+}
+.img__prod{
+  padding: 15px;
+  width: 100px;
+  border-radius: 25px;
+}
+.detalhe{
+  border-left: 10px solid black;
+}
