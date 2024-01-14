@@ -21,6 +21,7 @@ import { AccordionComponent } from './features/components/accordion/accordion.co
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProdutosComponent } from './features/produtos/produtos.component';
 import { ComplementProdComponent } from './features/complement-prod/complement-prod.component';
+import { SearchComplementComponent } from './features/components/search-complement/search-complement.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,9 @@ import { ComplementProdComponent } from './features/complement-prod/complement-p
     AccordionComponent,
     ProdutosComponent,
     ComplementProdComponent,
+    SearchComplementComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -43,6 +46,7 @@ import { ComplementProdComponent } from './features/complement-prod/complement-p
     MatExpansionModule,
     MatDividerModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

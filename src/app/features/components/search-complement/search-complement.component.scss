@@ -1,0 +1,40 @@
+.search{
+
+  &__content-component{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  &__container-foto{
+    display: flex;
+    align-items: center;
+  }
+
+  &__container-check{
+    display: flex;
+    align-items: center;
+  }
+
+  &__foto{
+    width: 50px;
+    border-radius: 15px;
+  }
+
+  &__small{
+    color: red;
+  }
+
+  &__name-value{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  &__obs{
+    margin-top: 25px;
+    background-color: grey;
+    padding: 25px;
+  }
+}
