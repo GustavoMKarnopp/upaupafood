@@ -11,6 +11,7 @@
 .produto{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 25px;
 
   &__foto{
@@ -31,10 +32,26 @@
 .produto__subtitle{
   margin-top: 25px
 }
-
+.cart{
+  &__prod-add{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__comprar-mais{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  &__comprar-mais-title{
+    margin: 10px;
+  }
+}
 .button{
   margin: 25px 0px 25px 0px;
   &__product{
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
