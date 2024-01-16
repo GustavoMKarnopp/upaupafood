@@ -22,6 +22,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProdutosComponent } from './features/produtos/produtos.component';
 import { ComplementProdComponent } from './features/complement-prod/complement-prod.component';
 import { SearchComplementComponent } from './features/components/search-complement/search-complement.component';
+import { ConfirmationComponent } from './features/confirmation/confirmation.component';
+import { EntregaComponent } from './features/components/confirmation/entrega/entrega.component';
+import { RetiradaComponent } from './features/components/confirmation/retirada/retirada.component';
+import { ConsumirLocalComponent } from './features/components/confirmation/consumir-local/consumir-local.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +41,10 @@ import { SearchComplementComponent } from './features/components/search-compleme
     ProdutosComponent,
     ComplementProdComponent,
     SearchComplementComponent,
+    ConfirmationComponent,
+    EntregaComponent,
+    RetiradaComponent,
+    ConsumirLocalComponent,
   ],
 
   imports: [
