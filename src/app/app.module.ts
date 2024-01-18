@@ -26,6 +26,7 @@ import { ConfirmationComponent } from './features/confirmation/confirmation.comp
 import { EntregaComponent } from './features/components/confirmation/entrega/entrega.component';
 import { RetiradaComponent } from './features/components/confirmation/retirada/retirada.component';
 import { ConsumirLocalComponent } from './features/components/confirmation/consumir-local/consumir-local.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { ConsumirLocalComponent } from './features/components/confirmation/consu
     AppRoutingModule,
     BrowserAnimationsModule,
     MatExpansionModule,
-    MatDividerModule
+    MatDividerModule,
+    HttpClientModule
   ],
 
   providers: [],
