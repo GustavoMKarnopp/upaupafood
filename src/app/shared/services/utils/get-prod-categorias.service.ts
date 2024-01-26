@@ -19,7 +19,7 @@ export class GetProdCategoriasService {
     private produtosService: ProdutosService
   ) {}
 
-  obterCategorias(): void {
+  obterCategorias(): any {
     // Obter categorias
     this.produtosService.getCategorias().then(response => {
       this.categorias = response?.results || [];
@@ -27,7 +27,7 @@ export class GetProdCategoriasService {
     });
   }
 
-  obterProdutos(): void {
+  obterProdutos(): any {
     // Obter produtos
     this.produtosService.getProdutos().then(response => {
       this.produtos = response?.results || [];
@@ -35,7 +35,7 @@ export class GetProdCategoriasService {
     });
   }
 
-  associarProdutosACategorias(): void {
+  associarProdutosACategorias(): any {
     // Estruturar os dados
     this.categorias.forEach(categoria => {
       if (categoria && categoria.id !== undefined) {
@@ -46,7 +46,7 @@ export class GetProdCategoriasService {
     }
     });
 
-    console.log(this.categoriasFiltradoProduto);
+    // console.log(this.categoriasFiltradoProduto);
     return this.categoriasFiltradoProduto
   }
 }
